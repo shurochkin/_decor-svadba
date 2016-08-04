@@ -1,0 +1,614 @@
+@media (max-width: 1200px) {
+  /* line 32, /Users/shurochkin/Projects/decor-svadba/src/sass/app.sass */
+  html {
+    font-size: 90%; } }
+
+@media (max-width: 992px) {
+  /* line 32, /Users/shurochkin/Projects/decor-svadba/src/sass/app.sass */
+  html {
+    font-size: 80%; } }
+
+/* line 39, /Users/shurochkin/Projects/decor-svadba/src/sass/app.sass */
+body {
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white; }
+  /* line 46, /Users/shurochkin/Projects/decor-svadba/src/sass/app.sass */
+  body .container {
+    padding: 0 2%; }
+
+/* line 49, /Users/shurochkin/Projects/decor-svadba/src/sass/app.sass */
+.row {
+  position: relative;
+  overflow: hidden;
+  z-index: 1000; }
+
+/* line 2, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+.header-title {
+  width: 100%;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #98669B;
+  margin: 0.5rem 0 0.5rem; }
+  /* line 8, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .header-title span {
+    display: block; }
+
+/* line 11, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+.first-page-title-row {
+  margin: 1rem auto 5rem; }
+  @media (max-width: 992px) {
+    /* line 11, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .first-page-title-row {
+      margin: 1rem auto 3rem; } }
+  @media (max-width: 767px) {
+    /* line 11, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .first-page-title-row {
+      margin: 2rem auto 2rem; } }
+
+/* line 19, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+.logo-title {
+  margin-left: 25%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%; }
+  @media (max-width: 767px) {
+    /* line 19, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .logo-title {
+      margin-left: 0%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+
+/* line 26, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+.first-page-about {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%;
+  color: #98669B;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  padding-left: 3 rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-weight: normal; }
+  @media (max-width: 767px) {
+    /* line 26, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .first-page-about {
+      position: relative;
+      font-size: 1.2rem; } }
+
+/* line 41, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+.teaser-section {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%;
+  text-align: center; }
+  @media (max-width: 992px) {
+    /* line 41, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .teaser-section {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 50%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+  @media (max-width: 767px) {
+    /* line 41, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .teaser-section {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+  /* line 48, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .teaser-section h2 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 0.2rem;
+    color: #98669B; }
+  /* line 53, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .teaser-section .teaser-img-wrapper {
+    overflow: hidden;
+    margin: 1rem 2rem 2rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #98669B; }
+    /* line 58, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .teaser-section .teaser-img-wrapper img {
+      width: 100%; }
+  /* line 60, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .teaser-section p {
+    margin-top: 0.4;
+    color: #98669B;
+    text-align: center;
+    font-size: 1.2rem; }
+
+/* line 66, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+.nav-client {
+  display: block;
+  overflow: hidden;
+  height: 3.5rem; }
+  /* line 70, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .nav-client .left, .nav-client .right {
+    height: inherit; }
+  /* line 72, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .nav-client .left {
+    float: left; }
+  /* line 74, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .nav-client .right {
+    float: right; }
+  /* line 76, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .nav-client .link-contact, .nav-client .link-about {
+    position: relative;
+    top: 2.2rem; }
+  /* line 79, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .nav-client .link-contact {
+    padding: 2rem 0 0 2.5rem; }
+    /* line 81, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .nav-client .link-contact:before {
+      content: '';
+      background-size: cover;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 2.5rem;
+      height: 3rem;
+      left: 0;
+      background: url(/images/contact.svg) no-repeat 0 0; }
+  /* line 85, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+  .nav-client .link-about {
+    padding: 2rem 2.8rem 0 0; }
+    /* line 87, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
+    .nav-client .link-about:after {
+      content: '';
+      background-size: cover;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 2.5rem;
+      height: 3rem;
+      right: 0;
+      background: url(/images/about.svg) no-repeat 0 0; }
+
+/* line 1, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important; }
+
+/* line 5, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.margin-top-2rem {
+  margin-top: 2rem; }
+
+/* line 8, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.margin-top-5rem {
+  margin-top: 5rem; }
+
+/* line 11, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.margin-bottom-1rem {
+  margin-bottom: 1rem; }
+
+/* line 14, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.margin-bottom-2rem {
+  margin-bottom: 2rem !important; }
+
+/* line 17, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.margin-bottom-5rem {
+  margin-bottom: 5rem !important; }
+
+/* line 20, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.link-no-decor {
+  text-decoration: none;
+  color: #98669B; }
+
+/* line 25, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.nav-client {
+  padding: 0 2.5%;
+  padding-bottom: 0; }
+
+/* line 57, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
+  padding: 0.5rem 2rem; }
+  /* line 59, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  table.doc-list > tbody > tr > td .glyphicon-class, table.doc-list > thead > tr > th .glyphicon-class {
+    opacity: 0.3;
+    cursor: pointer; }
+    /* line 62, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    table.doc-list > tbody > tr > td .glyphicon-class:hover, table.doc-list > thead > tr > th .glyphicon-class:hover {
+      opacity: 0.8; }
+  /* line 64, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  table.doc-list > tbody > tr > td:nth-child(3), table.doc-list > thead > tr > th:nth-child(3) {
+    max-width: 15rem;
+    overflow: hidden; }
+  /* line 67, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  table.doc-list > tbody > tr > td img, table.doc-list > thead > tr > th img {
+    height: 10rem; }
+
+/* line 71, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.list-page h1, .style-decor-page h1, .contact h1 {
+  color: #98669B;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 0; }
+  /* line 77, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .list-page h1 span, .style-decor-page h1 span, .contact h1 span {
+    display: inline-block;
+    position: relative;
+    padding: 0 4rem; }
+    @media (max-width: 767px) {
+      /* line 77, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .list-page h1 span, .style-decor-page h1 span, .contact h1 span {
+        padding: 0; } }
+    @media (min-width: 767px) {
+      /* line 85, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .list-page h1 span:before, .style-decor-page h1 span:before, .contact h1 span:before {
+        content: '';
+        background-size: cover;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 2.5rem;
+        height: 3rem;
+        background: url("/images/title-leaf-left.svg") no-repeat 0 0;
+        left: 0; }
+      /* line 89, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .list-page h1 span:after, .style-decor-page h1 span:after, .contact h1 span:after {
+        content: '';
+        background-size: cover;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 2.5rem;
+        height: 3rem;
+        background: url("/images/title-leaf-right.svg") no-repeat 0 0;
+        right: 0; } }
+
+/* line 95, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.list-page .teaser-section {
+  margin-bottom: 3rem; }
+  /* line 97, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .list-page .teaser-section h2 {
+    font-size: 1rem; }
+
+/* line 101, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page h1 {
+  margin-bottom: 0; }
+
+/* line 103, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page h3 {
+  text-align: center; }
+
+/* line 105, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page .style-description-col-before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 8.33333%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%; }
+  @media (max-width: 767px) {
+    /* line 105, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .style-description-col-before {
+      display: none; } }
+
+/* line 109, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page .style-description-col {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%;
+  color: #98669B;
+  background: white; }
+  /* line 111, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .style-decor-page .style-description-col.environment {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 16.66667%;
+    float: left;
+    padding-left: 1.08025%;
+    padding-right: 1.08025%; }
+    @media (max-width: 767px) {
+      /* line 111, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .style-decor-page .style-description-col.environment {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+        padding-left: 1.08025%;
+        padding-right: 1.08025%; } }
+  @media (max-width: 767px) {
+    /* line 109, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .style-description-col {
+      width: 100%; } }
+  /* line 119, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .style-decor-page .style-description-col h4 {
+    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 0.2rem; }
+  /* line 124, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .style-decor-page .style-description-col p {
+    font-size: 0.9rem;
+    line-height: 1.3; }
+  /* line 128, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .style-decor-page .style-description-col .link span {
+    border-bottom: 1px solid #98669B;
+    cursor: pointer; }
+    /* line 131, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .style-description-col .link span:hover {
+      opacity: 0.5; }
+
+/* line 134, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page .style-drawing-img-col {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 41.66667%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%; }
+  @media (max-width: 767px) {
+    /* line 134, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .style-drawing-img-col {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+  /* line 138, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .style-decor-page .style-drawing-img-col img {
+    width: 100%; }
+
+/* line 140, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page .style-img-col, .style-decor-page .element-img-col-ver01, .style-decor-page .environment-img-col {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%;
+  position: relative; }
+  @media (max-width: 767px) {
+    /* line 140, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .style-img-col, .style-decor-page .element-img-col-ver01, .style-decor-page .environment-img-col {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 75%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+  /* line 147, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .style-decor-page .style-img-col .img-wrapper img, .style-decor-page .element-img-col-ver01 .img-wrapper img, .style-decor-page .environment-img-col .img-wrapper img {
+    width: 100%; }
+  /* line 149, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .style-decor-page .style-img-col .img-thumbnail-list, .style-decor-page .element-img-col-ver01 .img-thumbnail-list, .style-decor-page .environment-img-col .img-thumbnail-list {
+    position: absolute;
+    top: 0;
+    left: -3.3rem;
+    width: 4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    @media (max-width: 767px) {
+      /* line 149, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .style-decor-page .style-img-col .img-thumbnail-list, .style-decor-page .element-img-col-ver01 .img-thumbnail-list, .style-decor-page .environment-img-col .img-thumbnail-list {
+        right: -4.3rem;
+        left: inherit; } }
+    /* line 160, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .style-img-col .img-thumbnail-list li, .style-decor-page .element-img-col-ver01 .img-thumbnail-list li, .style-decor-page .environment-img-col .img-thumbnail-list li {
+      height: 4rem;
+      margin-bottom: 0.2rem;
+      overflow: hidden;
+      cursor: pointer; }
+      /* line 165, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .style-decor-page .style-img-col .img-thumbnail-list li:hover, .style-decor-page .element-img-col-ver01 .img-thumbnail-list li:hover, .style-decor-page .environment-img-col .img-thumbnail-list li:hover {
+        opacity: 0.5; }
+      /* line 167, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .style-decor-page .style-img-col .img-thumbnail-list li img, .style-decor-page .element-img-col-ver01 .img-thumbnail-list li img, .style-decor-page .environment-img-col .img-thumbnail-list li img {
+        width: 100%; }
+
+/* line 170, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page .environment-img-col {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 58.33333%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%; }
+  @media (max-width: 767px) {
+    /* line 170, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .environment-img-col {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 91.66667%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+  @media (min-width: 767px) {
+    /* line 170, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .environment-img-col {
+      margin-left: 8.33333%; } }
+
+/* line 176, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.style-decor-page .element-img-col-ver01 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%; }
+  @media (max-width: 767px) {
+    /* line 176, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .element-img-col-ver01 {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 91.66667%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+  @media (min-width: 767px) {
+    /* line 176, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .style-decor-page .element-img-col-ver01 {
+      margin-left: 8.33333%; } }
+
+/* line 184, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.element-img-col {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: left;
+  padding-left: 1.08025%;
+  padding-right: 1.08025%;
+  padding-top: 1rem; }
+  @media (max-width: 767px) {
+    /* line 184, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .element-img-col {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 1.08025%;
+      padding-right: 1.08025%; } }
+  /* line 189, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .element-img-col .container {
+    padding: 0; }
+    /* line 192, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .element-img-col .container .col {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 33.33333%;
+      float: left;
+      padding-left: 2.08333%;
+      padding-right: 2.08333%; }
+      /* line 195, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .element-img-col .container .col .row .col2 {
+        margin-left: 50%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+        padding-left: 2.08333%;
+        padding-right: 2.08333%; }
+    /* line 198, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .element-img-col .container .img-wrapper {
+      overflow: hidden; }
+      /* line 200, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .element-img-col .container .img-wrapper img {
+        width: 100%; }
+
+/* line 203, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.svg-icons-dispersion {
+  position: absolute;
+  z-index: -100;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0; }
+  /* line 210, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .svg-icons-dispersion img {
+    position: absolute;
+    width: 4rem; }
+
+/* line 243, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.bill-modal {
+  position: fixed;
+  z-index: 10000;
+  background: white;
+  top: 5rem;
+  left: -100rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 58.33333%;
+  float: left;
+  padding-left: 2.08333%;
+  padding-right: 2.08333%;
+  -webkit-box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out; }
+  /* line 249, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal.show {
+    left: 10rem; }
+  @media (max-width: 767px) {
+    /* line 243, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .bill-modal {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.08333%;
+      padding-right: 2.08333%;
+      top: 0; }
+      /* line 256, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+      .bill-modal.show {
+        left: 0; } }
+  /* line 259, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal h3 {
+    text-align: center; }
+  /* line 264, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal table tbody tr:nth-child(odd) {
+    background-color: gainsboro; }
+  /* line 266, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal table tbody tr:last-child {
+    background: #ffffff; }
+    /* line 268, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .bill-modal table tbody tr:last-child td {
+      font-weight: bold; }
+  /* line 271, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal table tr td, .bill-modal table tr th {
+    padding: 1rem;
+    font-weight: 100; }
+  /* line 274, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal table tr th {
+    font-weight: 600; }
+  /* line 276, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal table tr td:nth-child(2), .bill-modal table tr td:nth-child(3) {
+    text-align: right; }
+  /* line 278, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .bill-modal .close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    font-weight: bold; }
+    /* line 286, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .bill-modal .close:hover {
+      opacity: 1; }
+
+/* line 289, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+.contact {
+  text-align: center;
+  color: #98669B; }
+  /* line 292, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .contact h1 {
+    margin-bottom: 8rem; }
+  /* line 294, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .contact h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500; }
+  /* line 298, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+  .contact .phone-list {
+    margin-top: 5rem;
+    margin-bottom: 4rem; }
+    /* line 301, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_style.sass */
+    .contact .phone-list .phone {
+      padding-bottom: 1rem; }
