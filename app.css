@@ -45,15 +45,15 @@ a, p, h1, h2, h3 {
     display: block; }
 
 /* line 11, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
-.first-page-title-row {
+.row.first-page-title {
   margin: 1rem auto 5rem; }
   @media (max-width: 992px) {
     /* line 11, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
-    .first-page-title-row {
+    .row.first-page-title {
       margin: 1rem auto 3rem; } }
   @media (max-width: 767px) {
     /* line 11, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
-    .first-page-title-row {
+    .row.first-page-title {
       margin: 2rem auto 2rem; } }
 
 /* line 19, /Users/shurochkin/Projects/decor-svadba/src/sass/partials/_header.sass */
